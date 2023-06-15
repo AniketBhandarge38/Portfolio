@@ -1,0 +1,121 @@
+:root {
+    --blue:  #3c65ff;
+    --white: #ffffff;
+    --grey:  #282d38;
+  }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.header {
+    padding: 1rem;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-left {
+    margin-left: 7rem;
+}
+
+.header-logo {
+    font-size: 2rem;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.header-right {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.header-item {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.header-item a {
+    text-decoration: none;
+    color: var(--grey);
+    font-weight: 500;
+}
+
+.about-me {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.about-me-heading {
+    color: var(--grey);
+    font-size: 2.5rem
+}
+
+.about-me-info {
+    color: var(--grey);
+    font-size: 1.1rem;
+}
+
+.about-me-picture {
+    height: 20rem;
+    border-radius: 50%;
+    width: 18rem;
+    border: 5px solid var(--blue);
+    margin-top: 2rem;
+}
+
+.skills-page {
+    padding: 5px
+}
+
+.skills-container {
+    margin: 5px;
+    height: 20rem;
+    background-color: var(--blue);
+    border-radius: 1.2rem;
+}
+
+.skills-container h3{
+    padding-top: 2rem;
+    font-size: xx-large;
+    color: var(--white);
+    text-align: center;
+}
+
+.skills {
+    top: -14rem;
+    position: relative;
+    border-radius: 2rem;
+    margin: 2.1rem;
+    display: flex;
+    text-align: center;
+}
+
+.skills-backend, .skills-frontend{
+    background-color: var(--white);
+    box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.176);
+    padding: 1.1rem;
+    margin: 1.1rem;
+    border-radius: 1.1rem;
+    width: 50%;
+}
+
+.skills-backend h3 h4, .skills-frontend h3 h4{ 
+    color: var(--grey);
+    font: 500;
+}
